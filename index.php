@@ -1,21 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
 
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PHP tuts</title>
-</head>
+$first_name = "mohammad";
+$NumbeR1 = "10";
+$NumbeR2 = "12";
+$status = true;
+$a = 10245;
+$b = 25 / 7;
 
-<body>
-    <h2>my name</h2>
-    <?php
 
-    $name = "mohammad"
-
-    ?>
-    <h4><?php echo $name ?></h4>
-</body>
-
-</html>
+//strings
+$first_name = 'mohammad\'s';
+$first_name = "mohammad's";
+$last_name = 'zahedi';
+$full_name = $first_name . " " . $last_name;
+$description = 'hi my name
+ is mohammadreza
+i\'m 27 years old
+';
+// echo ($description);
+// echo 'You deleted: C:\\*.*?';
+// var_dump($description);
+// var_dump($full_name);
+var_dump("$first_name $last_name");
+// var_dump((int)$b);
+// var_dump($status);
+// var_dump($a);
